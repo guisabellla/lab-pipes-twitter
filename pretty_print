@@ -4,3 +4,5 @@ file = sys.stdin
 data = next(file)
 obj  = json.loads(data)
 print(json.dumps(obj, indent=4))
+
+
